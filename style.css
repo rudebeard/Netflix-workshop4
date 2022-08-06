@@ -1,0 +1,70 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(./imgs/NetFlix_image.jpeg);
+  color:whitesmoke;
+}
+
+#container{
+background-color:rgba(0,0, 0,0.3);
+border:5px solid gray;
+width: 60%;
+height: fit-content;
+padding: 45px;
+text-align: center;
+margin: auto;
+border-radius: 6px;
+margin-top: 11px;
+
+}
+#title{
+  font-size: 4rem;
+  color: azure;
+  font-family: sans-serif;
+  letter-spacing: 0.05em;
+}
+span{
+  color: crimson;
+}
+
+#description{
+  text-transform: uppercase;
+
+}
+
+#header{
+text-align: center;
+}
+textarea{
+  resize: none;
+  margin-bottom: 15px;
+}
+
+#name,#age,#email,#dropdown,#feedback{
+  width: 60%;
+  padding:1em;
+  margin-top: 10px;
+}
+.input-box{
+  color: darkgray;
+  font-size: 2em;
+  
+}
+
+#form-button{
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: crimson;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#form-button:hover{
+  background-color:white;
+  color:crimson;
+  transition: 0.3s;
+}
