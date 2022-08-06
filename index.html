@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  <title>Netflix</title>
+</head>
+<body>
+  <div id="container">
+    <header id="header">
+      <h1 id="title">NET <span>FLIX</span></h1>
+      <h3 id="description">Thank you for  signing up to Netflix</h3>
+    </header>
+
+    <section id="survay-form-container">
+      <form action="" method="get">
+        
+        <div class="input-box">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+        </div>
+
+        <div class="input-box">
+          <label for="name">Age</label><br>
+          <input type="number" id="age" name="age" placeholder="Enter your age">
+        </div>
+
+        <div class="input-box">
+          <label for="name">Email</label><br>
+          <input type="text" id="email" name="email" placeholder="Enter your email">
+        </div>
+
+        <div class="input-box">
+          <label for="content">Content Type</label><br>
+          <select name="contnet" id="dropdown">
+            <option value="movie">MOVIES</option>
+            <option value="series">SERIES</option>
+          </select>
+        </div>
+        <div class="input-box">
+          <label for="">MOVIE TYPES</label><br>
+          <input type="checkbox" name="movie" id="firstcheck" value="comedy" checked>
+          <label for="firstcheck">COMEDY</label><br>
+          <input type="checkbox" name="movie" id="secondcheck" value="horror" >
+          <label for="secondcheck">HOROR</label><br>
+          <input type="checkbox" name="movie" id="thirdcheck" value="anime" >
+          <label for="thirdcheck">ANIME</label><br>        
+          <input type="checkbox" name="movie" id="fourthcheck" value="action" >
+          <label for="fourthcheck">ACTION</label><br>
+        </div>
+        <div class="input-box">
+          <label for="">GENDER</label><br>
+
+          <input type="radio" name="gender" id="first-radio" value="female">
+          <label for="">FEMALE</label><br>
+
+          <input type="radio" name="gender" id="second-radio" value="male">
+          <label for="">MALE</label><br>
+
+          <input type="radio" name="gender" id="third-radio" value="others">
+          <label for="">OTHERS</label>
+        </div>
+        <div class="input-box">
+          <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="thanks for your comments"></textarea>          
+        </div>
+        <div class="from-submit">
+          <button type="submit"   id="form-button">SUBMIT</button>        
+        </div>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
